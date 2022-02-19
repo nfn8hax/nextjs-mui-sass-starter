@@ -1,0 +1,29 @@
+@import "./include-media.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Oswald&display=swap");
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin pageWrapper {
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+@mixin merriweather {
+  font-family: "Merriweather", serif;
+}
+@mixin oswald {
+  font-family: "Oswald", sans-serif;
+}
+
+$colors: (
+  "a": rgb(254, 132, 109),
+  "b": rgb(45, 62, 80),
+  "c": rgb(52, 73, 94),
+  "d": rgb(236, 240, 241),
+  // "e": rgb(123, 22, 112),,
+);
